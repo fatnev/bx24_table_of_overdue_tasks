@@ -15,14 +15,12 @@
 	border: 1px solid #dddddd;
 	padding: 5px;
 }
-
 hr {
     margin: 15px 0px 15px 0;
     height: 0px;
     border: none;
     border-top: 1px solid #dddddd;
 }
-
 h1 {
     margin-bottom: 15px;
 }
