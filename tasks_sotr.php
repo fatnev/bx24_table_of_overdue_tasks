@@ -31,7 +31,7 @@ h1 {
 
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 
-CModule::IncludeModule('intranet');
+\Bitrix\Main\Loader::includeModule('intranet');
 
 $userIds = [182, 249, 12, 324, 350, 309, 170, 162, 306, 315, 314, 222, 56, 348]; // ID выбранных сотрудников
 
